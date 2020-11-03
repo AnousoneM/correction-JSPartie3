@@ -52,6 +52,7 @@ let isString = function (sentence) {
 //Exercice 10 : Afficher l'extension du fichier.
 let displayExtension = function (fileName) {
   // return fileName.substring(fileName.indexOf('.') + 1); // Permet d'avoir l'extension en fonction du point :)
+  // return fileName.split('.').pop() // Permet d'obtenir le dernier élément du tableau
   return fileName.slice(-3); // attention ne fonctionne uniquement avec des extensions en 3 lettres
 }
 
